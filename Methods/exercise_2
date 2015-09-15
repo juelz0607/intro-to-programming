@@ -1,0 +1,25 @@
+# What do the following expressions evaluate to?
+
+1. x = 2
+
+2. puts x = 2
+
+3. p name = "Joe"
+
+4. four = "four"
+
+5. print something = "nothing"
+
+
+# Answers. 
+
+1) returns 2
+
+2) nil, because after x is evaluated to 2, puts returns nil. 
+
+3) prints "Joe" with quotation marks included.
+
+4) returns the string "four".
+
+5) nil, because the variable "something" cannot be declared on the same line as 
+it's being called on. 
