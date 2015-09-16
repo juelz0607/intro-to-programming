@@ -1,0 +1,33 @@
+When you run the following code, you get the following error message:
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else 
+    puts "nope"
+end
+
+equal_to_four(5)
+
+
+=> test_code.rb:96: syntax error, unexpected end-of-output, expecting keyword
+   _end
+
+
+-- Answer
+
+This error message is stating that on line 96 of the program "test_code.rb"
+there is an error, with that error being a missing closing "end" for the "if"
+statement within the defined method. There should be a closing "end" statement
+for both the "if" conditional, and the defining method. Corrected code below:
+
+
+def equal_to_four(x)
+  if x == 4
+    puts "yup"
+  else 
+    puts "nope"
+  end
+end
+
+equal_to_four(5)
