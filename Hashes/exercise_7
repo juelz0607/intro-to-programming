@@ -1,0 +1,14 @@
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+-- Answer
+
+The first hash utilizes the new method of writing a hash in ruby as of version
+1.9 or later. It uses a symbold as a key. The second hash uses the old method of writing a hash which
+cooresponds to ruby versions 1.9 and earlier. It uses the string value of
+the x variable as the key. 
