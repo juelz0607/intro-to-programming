@@ -1,0 +1,2 @@
+The problem is that a value is trying to be set using a string as key. You would
+correctly modify an array using indexing integers.
