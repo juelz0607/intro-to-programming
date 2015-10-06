@@ -1,0 +1,9 @@
+Yes, has values can be arrays, and it is possible to have an array of hashes. 
+
+ex: hash values as arrays
+
+  new_hash = {numbers: ["one", "two", "three"]
+  
+ex: and array of hashes
+
+  new_array = [ {letter: "a"}, {number: "one"}, {color: "red"}]

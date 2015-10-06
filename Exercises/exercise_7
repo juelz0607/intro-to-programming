@@ -1,0 +1,3 @@
+An array holds stored values that are arranged, or sorted. A hash, however, 
+stores data without any specific organazation while holding keys that are 
+associated with specific values. 
